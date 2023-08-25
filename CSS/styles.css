@@ -1,0 +1,273 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito Sans";
+  text-align: center;
+  color: #000;
+}
+
+#second-section,
+#third-sec,
+#fourth-section,
+#fifth-section,
+#sixth-section,
+.container-fluid {
+  padding: 0 190px 50px 190px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 2.3rem;
+  text-align: center;
+}
+
+button.check-button {
+  border-radius: 30px;
+  width: 190px;
+  height: 60px;
+}
+
+/* Navbar */
+
+.nav-item {
+  padding: 20px 30px 0px 30px;
+  font-weight: bold;
+}
+
+.navbar-nav a {
+  color: #000;
+}
+
+.navbar-img {
+  display: block;
+  margin: 30px auto 10px auto;
+}
+
+.title-heading h1 {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  padding: 3% 0 0 18%;
+}
+
+.title-heading p {
+  font-weight: 6rem;
+  padding: 3% 15% 0 18%;
+}
+
+/* hiring-image */
+.title-image {
+  position: relative;
+  left: 15%;
+  width: 70%;
+}
+
+.check-button {
+  margin: 3% 0 0 18%;
+  width: 200px;
+  height: 50px;
+  background: #F8FAFC 0% 0% no-repeat padding-box;
+  box-shadow: 0px 16px 48px #00000029;
+}
+
+svg {
+  position: absolute;
+  z-index: -1;
+}
+
+/* Navbar ends here */
+
+/* Second-section */
+#second-section {
+  background-color: #F8FAFC;
+}
+
+#second-section .card {
+  border-radius: 30px;
+}
+
+.cards-columns {
+  padding: 3% 2%;
+}
+
+.card {
+  width: 310px;
+  height: 400px;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.feature-box .card-img {
+  width: 260px;
+  height: 157px;
+}
+
+.feature-box h6 {
+  font-weight: bold;
+}
+
+/* fourth section */
+
+#fourth-section .divide-img-right {
+  text-align: right;
+  padding-top: 60px;
+}
+
+#fourth-section .divide-img-right img {
+  padding: 20px;
+  margin-left: 250px;
+}
+
+#fourth-section .divide-img-right .right-img-content {
+  padding-top: 0;
+}
+
+#fourth-section .divide-img-left img {
+  padding: 20px;
+}
+
+#fourth-section .divide-img-right p {
+  font-size: 1.2rem;
+  padding-top: 30px;
+}
+
+#fourth-section .divide-img-left h5,
+#fourth-section .divide-img-right h5 {
+  display: inline-block;
+  font-weight: bold;
+}
+
+.divide-img-right button {
+  margin-right: 220px;
+  margin-top: 5px;
+}
+
+.divide-img-left p {
+  font-size: 1.2rem;
+}
+
+.divide-img-left button {
+  margin-left: 0px;
+  margin-top: 5px;
+}
+
+/* fifth section */
+
+#fifth-section {
+  padding: 0 190px 150px 190px;
+}
+
+#fifth-section .white-card-container {
+  width: 1097px;
+  height: 365px;
+  background-color: #F8FAFC;
+  border-radius: 42px;
+  color: #000;
+  padding: 30px;
+  box-shadow: 0px 16px 48px #00000029;
+}
+
+#fifth-section .white-sec-card {
+  width: 285px;
+  height: 263px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 16px 48px #00000029;
+  border-radius: 30px;
+  margin: 30px;
+  padding: 15px;
+}
+
+#fifth-section .box img {
+  float: left;
+}
+
+#fifth-section .white-sec-card-content {
+  font-size: 12px;
+}
+
+#fifth-section .rating-stars {
+  width: 14px;
+  height: 14px;
+  float: right;
+  margin: 2px;
+}
+
+#fifth-section .profile-img {
+  margin: 5px;
+}
+
+#fifth-section .designation-part {
+  color: #615C5C;
+  font-size: 12px;
+  padding: 0px;
+}
+
+#fifth-section .person-name {
+  font-size: 12px;
+  margin: 0px;
+}
+
+/* sixth section */
+
+#sixth-section .sixth-box {
+  padding: 100px;
+}
+
+.sixth-box .com-loco-img {
+  width: 180px;
+  height: 80px;
+}
+
+/* footer */
+.black-section {
+  font-family: arial;
+  font-size: 18px;
+  width: 100%;
+  height: 300px;
+  background-color: #000;
+  color: #fff;
+}
+
+.black-section p {
+  position: relative;
+  top: 230px;
+  text-align: center;
+}
+
+.footer-para {
+  text-align: center;
+  background-color: #000;
+}
+
+@media (min-width: 720px) and (max-width: 1280px) {
+  * {
+    background-color: #F8FAFC;
+  }
+
+  img.title-image {
+    padding-top: 50px;
+  }
+
+  #fourth-section .divide-img-left {
+    padding-top: 60px;
+}
+
+  #sixth-section .sixth-box {
+    padding: 50px;
+  }
+}
